@@ -1,0 +1,34 @@
+# Compiled JavaScript files
+lib/**/*.js
+lib/**/*.js.map
+
+# TypeScript v1 declaration files
+typings/
+
+# Node.js dependency directory
+node_modules/
+*.local
+
+# Node modules
+node_modules/
+
+# Firebase Functions build output
+lib/
+dist/
+
+# Firebase environment config (para evitar subir claves de API, etc)
+.firebase/
+.firstrun/
+*.env
+.env.local
+
+# Archivos de credenciales de Firebase
+credentials.json  # Si tienes un archivo con credenciales
+
+# Logs y archivos temporales
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Archivos de compilación
+tsconfig.tsbuildinfo
